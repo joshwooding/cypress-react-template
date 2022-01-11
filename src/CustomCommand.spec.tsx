@@ -11,5 +11,7 @@ it('uses a custom command written in TypeScript', () => {
 
   mount(<Comp />);
 
-  cy.clickButtonWithText('Button!');
+  for(let i = 0; i < 10; i++){
+    cy.clickButtonWithText('Button!');
+  }
 })

@@ -5,6 +5,8 @@
         "testFiles": "**/*.spec.{js,ts,jsx,tsx}",
         "componentFolder": "src"
     },
+    "viewportWidth": 1280,
+    "viewportHeight": 1024,
     "env": {
         "cypress-react-selector": {
             "root": "#__cy_root"
